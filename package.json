@@ -1,0 +1,57 @@
+{
+    "name": "sauna-theme",
+    "displayName": "Sauna Theme",
+    "description": "Created with love, this is the Sauna official theme",
+    "version": "0.0.1",
+    "publisher": "gammx",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+		"color": "#151535",
+		"theme": "dark"
+	},
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/wearesauna/theme"
+	},
+    "author": {
+		"name": "Gamma",
+		"url": "https://github.com/gammx",
+		"email": "gammxplus@gmail.com"
+	},
+    "keywords": [
+		"Theme",
+		"Themes",
+		"Dark",
+		"Purple",
+		"Blue",
+		"Indie",
+		"Retro",
+		"80s",
+		"Neon",
+		"Alternative",
+		"Night",
+		"Cobalt",
+		"Ocean",
+		"Ocean Next",
+		"React",
+		"React Theme",
+        "Sauna",
+        "Pastel",
+        "Vue"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sauna Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme.json"
+            }
+        ]
+    }
+}
